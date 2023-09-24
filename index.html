@@ -1,219 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> -->
-    <title>work_shop_3</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> -->
+  <title>work_shop_3</title>
 </head>
 <style>
-    main{
-        display: flex;
+  
+  main {
+    display: flex;
     justify-content: center;
     align-items: center;
-    }
-.form1{
-     padding: 5px;
+  }
+
+  .form1 {
+    padding: 5px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     border: 2px solid black;
     width: 50%;
-}
-#root{
-  width: 100%;
-  height: 100%; 
-  overflow: auto;
-}
+  }
+
+  #root {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+  }
 </style>
+
 <body>
   <div id="alert-container">
     <!-- Alerts will be added here using JavaScript -->
-</div>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                  </li>
-                </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-    </header>
-    <main>
-      <div class="card card-body">
-        <div>
+  </div>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="card card-body">
+      <div>
         <label>Name
-        <input type="text"   placeholder="name" id="name"></label>
+          <input type="text" placeholder="name" id="name"></label>
         <label>Roll No
-        <input type="text"   placeholder="Roll No" id="roll"></label>
+          <input type="text" placeholder="Roll No" id="roll"></label>
         <button onclick="addStudent(event)">submit</button>
-         <div >
+        <div>
         </div>
         <div id="total"></div>
-        <p>
-          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Show All Data list</button>
+        <p style="margin-top: 20px;">
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse"
+            aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Show All Data
+            list</button>
         </p>
-        
+
         <div class="row">
-         
+
           <div class="col">
             <div class="collapse multi-collapse" id="multiCollapseExample1">
-             
+
               <div class="card card-body">
                 <div id="root"></div>
               </div>
             </div>
-          
-            
+
+
           </div>
-          
-        </div> 
-      
+
+        </div>
+
 
       </div>
     </div>
-    </main>
-    
+  </main>
+
 </body>
 <script>
- 
- 
-        // Function to create a Bootstrap alert
-        function createAlert(message, alertType) {
-            // Create the alert div
-            var alertDiv = document.createElement("div");
-            alertDiv.classList.add("alert", "alert-" + alertType, "alert-dismissible", "fade", "show");
 
-            // Create the close button
-            var closeButton = document.createElement("button");
-            closeButton.type = "button";
-            closeButton.classList.add("close");
-            closeButton.setAttribute("data-dismiss", "alert");
-            closeButton.innerHTML = "&times;";
+  let data = []
+  let i = 0
 
-            // Create the alert message
-            var alertMessage = document.createElement("strong");
-            alertMessage.textContent = message;
+  function createAlert(message, alertType) {
+    // Create the alert div
+    var alertDiv = document.createElement("div");
+    alertDiv.classList.add("alert", "alert-" + alertType, "alert-dismissible", "fade", "show");
 
-            // Append elements to the alert div
-            alertDiv.appendChild(closeButton);
-            alertDiv.appendChild(alertMessage);
+    // Create the close button
+    var closeButton = document.createElement("button");
+    closeButton.type = "button";
+    closeButton.classList.add("close");
+    closeButton.setAttribute("data-dismiss", "alert");
+    closeButton.innerHTML = "&times;";
 
-            // Append the alert div to the container
-            var container = document.getElementById("alert-container");
-            container.appendChild(alertDiv);
-        }
+    // Create the alert message
+    var alertMessage = document.createElement("strong");
+    alertMessage.textContent = message;
 
-        // Example usage
-        // createAlert("This is a success alert!", "success");
-        // createAlert("This is a warning alert!", "warning");
-        // createAlert("This is an error alert!", "danger");
+    // Append elements to the alert div
+    alertDiv.appendChild(closeButton);
+    alertDiv.appendChild(alertMessage);
 
+    // Append the alert div to the container
+    var container = document.getElementById("alert-container");
+    container.appendChild(alertDiv);
+  }
 
+  function addStudent(event) {
+    event.stopPropagation();
+    event.preventDefault();
 
+    let name = document.getElementById('name');
+    let roll = document.getElementById('roll');
 
-    let data=[]
-   
-    let i=0
-    var totalsum=0
-    let create=false
-    function addStudent(event){
-     event.stopPropagation();
-    event.preventDefault(); 
-    create=true
-    let name=document.getElementById('name').value;
-    let roll=document.getElementById('roll').value;
-    
-    let student={
-      name:name,
-      roll:roll
+    let student = {
+      name: name.value,
+      roll: roll.value
     };
-    if(!name){
-      createAlert("Please fill the name","warning")
+    if (!name.value) {
+      createAlert("Please fill the name", "warning")
       return
     }
-    if(!roll){
-      createAlert("Please fill the Roll no","warning")
+    if (!roll.value) {
+      createAlert("Please fill the Roll no", "warning")
       return
     }
     for (let index = 0; index < data.length; index++) {
-      console.log( data[index].roll === student.roll)
-      if (data[index].roll == student.roll)
-      {
-        createAlert('dublicate are not allowed',"warning")
+      console.log(data[index].roll === student.roll)
+      if (data[index].roll == student.roll) {
+        createAlert(`Roll no ${student.roll} already exist `, "danger")
         return
       }
     }
     data.push(student)
-   
-    createAlert(`successfully register  ${student.name} having Roll no ${student.roll}`,"success")
     
+    createAlert(`successfully register  ${student.name} having Roll no ${student.roll}`, "success")
 
-
-
-{
-    let div=document.createElement('div')
-    div.style.backgroundColor='yellow';
-    div.style.padding='5px'
-    div.style.overflow='auto'
-    div.style.overflow='auto'
-    div.style.overflow='auto'
-    div.classList.add(`student`);
-   
-
-    div.innerHTML=`<div class="card card-body"><h1>S no : ${i+1}</h1><hr><p>Name  :${student.name}</p><hr><p>Roll No :${student.roll}</p></div>`
-   
-    document.getElementById('root').appendChild(div)
-    i=i+1
-    let total=document.getElementById('total')
-total.innerHTML=`Total Number of students Register ${data.length}`
-}}
-
-    
-
-
-
-
-
-
-
-
-
+    roll.value='';
+    name.value='';
 
 
     
+      let div = document.createElement('div')
+      div.style.backgroundColor = 'yellow';
+      div.style.padding = '5px'
+      div.style.overflow = 'auto'
+      div.style.overflow = 'auto'
+      div.style.overflow = 'auto'
+      div.classList.add(`student`);
+
+
+      div.innerHTML = `<div class="card card-body"><h1>S no : ${i + 1}</h1><hr><p>Name  :${student.name}</p><hr><p>Roll No :${student.roll}</p></div>`
+
+      document.getElementById('root').appendChild(div)
+      i = i + 1
+      let total = document.getElementById('total')
+      total.innerHTML = `Total Number of students Register ${data.length}`
+      
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -223,4 +228,5 @@ total.innerHTML=`Total Number of students Register ${data.length}`
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </html>
